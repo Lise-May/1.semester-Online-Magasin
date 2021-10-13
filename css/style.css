@@ -1,0 +1,361 @@
+/* ----------------------------------------------------------- Them style ----------------------------------------------------- */
+
+.them_page {
+    font-family : Arial, Helvetica, sans-serif;
+    color: #333333;
+    background-color: ffffff;
+    text-decoration: none;
+}
+*{
+    color: black;
+}
+
+.theme_element_backgroundcolor {
+    background-color: #eeeeee;
+}
+/* ------------------------------------------------------------------------------------------- header--------------------------------------- */
+
+/* ----------- Logo -------- */
+.logo_image {
+    max-width: 25%;
+    float: none;
+    display: block;
+    margin: 0 auto;
+}
+
+/* ----------- body justeringer -------- */
+body {
+margin: 0;
+height: auto;
+}
+
+/* ---------------------------- hamburger menu----------------------- */
+
+#menu {
+    width: 35px;
+    height: 30px;
+    margin: 30px 0 20 px 20px;
+    cursor: pointer;
+    
+}
+.bar {
+    height: 5px;
+    width: 100%;
+    background-color: #333333;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+#bar1 {
+    transform: translateY(-4px);
+}
+#bar3{
+    transform: translateY(4px);
+}
+
+.nav li a{
+    color: #555555;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    font-weight: bold;
+}
+
+.nav li{
+    list-style: none;
+    padding: 16px 0;
+}
+
+.nav {
+    padding: 0;
+    margin: 0 20px;
+    transition: 0.3 ease;
+    display: none;
+}
+
+.change .bar {
+    background-color:#555555;
+}
+.change #bar1{
+   transform: translateY(4px) rotate(-45deg); 
+}
+.change #bar3{
+    transform: translateY(-6px) rotate(45deg); 
+}
+.change #bar2 {
+    opacity: 0;
+}
+
+.change {
+    display: block;
+}
+
+/* ---------------------------------------------------------------------------------------- home page ---------------------------------------------- */
+h1 {
+    font-weight: 100;
+    font-size: 2.5rem; /*--1 rem = 16 px --*/
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.picdiy1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: black;
+    padding: 5px;
+    width: 80%;
+    float: none;
+    margin: 0 auto;
+}
+
+.picdiy2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: black;
+    padding: 5px;
+    width: 80%;
+    float: none;
+    margin: 0 auto;
+}
+
+.picdiy3{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: black;
+    padding: 5px;
+    width: 80%;
+    float: none;
+    margin: 0 auto;
+}
+/* -------shadow around the box main ------- */
+main{
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1),
+    -30px 0px 40px rgba(0, 0, 0, 0.1);
+}
+
+#landing-text{
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+/* --Undertekst under overskriften --*/
+#landing-text h2 {
+    color: #888888;
+}
+/* --Månedens DIY --*/
+#diy-header {
+    padding: 1.5rem;
+    text-align: center;
+    background: #333333;
+    color: #ffffff;
+}
+
+#diy-header h2 {
+    border-left: dotted 1px #ffffff;
+    border-right: dotted 1px #ffffff;
+    display: inline-block;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+/* --månedens DIY text --*/
+.caption {
+    padding: 0.8rem;
+    text-align: center;
+}
+/* ------------------------------------------------------------------------------------------------ okt2020--------------------------------------------- */
+.card {
+    transition: 0.3s;
+    width: 90%;
+    margin: 10px auto;
+  }
+  
+  
+.container {
+    padding: 2px 16px;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.imgcard{
+	width: 270px;
+  	border: 5px solid black;
+    width:100%;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+/* ------------------------------------------------------------------------------------------------- artikler --------------------------------------------- */
+.diycover {
+    width: 300px;
+    border: 5px solid black;
+    float:none;
+    display: block;
+    margin: 3pc auto;
+}
+
+.crp{
+    width: 300px;
+    border: 5px solid black;
+    float: none;
+    display: block;
+    margin:0 auto;
+}
+
+.picnote{
+    text-align: center;
+}
+
+.arttext{
+    margin: 0px 0px 0px 30px;
+}
+
+.arttext > h2{
+    margin: 0px 0px 0px 40px;
+    font-weight: bold;
+}
+
+.arttext .step {
+    font-weight: bold;
+}
+
+/* ------------------------------------------------------------------------------------------------- footer ----------------------------------------------- */
+footer {
+    bottom: 0px;
+    width: 100%;
+    margin-top: 10px;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content .box {
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+/* -højre box skrives her-- */
+.left .content .some {
+    margin: 20px 0 0 0;
+}
+
+
+.left .content .some a{
+    padding: 0 2px;
+}   
+
+.left .content .some a span{
+    height: 40px;
+    width: 40px;
+    background: #11aa11;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}   
+
+.left .content .some a span:hover{
+    background: #f12020;
+}  
+
+/* ----------------------------------------------------------------------Styling to change from mobile to desktop----------------------------------------*/
+/* -- Burger menu to navigation bar -- */
+
+/* -- Home page - screen sices 640px and up -- */
+@media(min-width: 780px) {
+/* -burger menu- */
+    #landing-text {
+        height: 100vh;
+    }
+    main {
+        max-width: none;  
+    }
+    .menu {
+        display: hidden;
+    }
+    
+    #bar1 {
+        display: none;
+    }
+    #bar2 {
+        display: none;
+    }
+    #bar3 {
+        display: none;
+    }
+
+    .nav{
+        display: inline-block;
+        justify-content: space-around;
+        display: flex;
+    }
+    .navigation_element {
+        display: flex;
+        justify-content: space-around;
+    }
+/* -main card område- */
+    .card  {
+		width: 270px;
+        border: 5px solid black;
+	}  
+    .imgcard {
+    	border: 2px solid black;
+    }
+    .container {
+        padding: 2px 16px;
+        flex-direction: row ;
+    }
+    .containerokt{
+        display: flex;
+        flex-direction: row;
+    }
+    /* -Footer- */
+    .footer-content {
+        flex-direction: row;
+    }
+    /* -artikler- */
+    .arttext{
+        margin: 0px 0px 0px 200px;
+    }
+    
+    .arttext > h2{
+        font-weight: bold;
+        text-align: left;
+        margin: 0px 0px 0px 470px;
+    }
+
+    .crp{
+        margin: 0px 0px 0px 400px;
+    }
+
+    .step {
+        margin: 10px 0px 0px 40px;
+    }
+}
+
+
+/* ------------------------------------------------ XXXXXXXXXXXXXXXXXXXXXXX -------------------------------- */
